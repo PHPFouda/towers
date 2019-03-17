@@ -21,4 +21,4 @@ You only need to do these once for all.
 
 - Run command `php init --env=Development` to initialize the application with a specific environment.
 - Create a new database and adjust the `components['db']` configuration in `common/config/main-local.php` accordingly.
-- Apply migrations with console command ``php yii migrate``. This will create tables needed for the application to work.
+- Download the attached SQL file and import it to the DB. This will create tables needed for the application to work.
